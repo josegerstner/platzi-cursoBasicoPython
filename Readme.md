@@ -99,3 +99,50 @@ else:
 
 **NOTA: luego de los dos puntos siempre hay que dejar 4 espacios luego del salto de línea.**  
   
+## IMPRIMIR BLOQUE DE TEXTO  
+  
+>Se puede imprimir bloques de texto. Esto quiere decir, que se puede hacer una variable que contenga muchas líneas de texto. Esto se hace escribiendo dentro de tres comillas dobles:  
+```  
+menu = """  
+Esto es un bloque  
+de texto  
+:)  
+"""  
+print(menu)
+```  
+>La salida de este código será:  
+``` 
+Esto es un bloque  
+de texto  
+:)  
+```   
+  
+## FUNCIONES  
+  
+**def nombre_funcion(parametros):**  
+```  
+def nombre_funcion(parametros):  
+    codigo_de_bloque_de_codigo  
+    codigo_de_bloque_de_codigo  
+    codigo_de_bloque_de_codigo  
+    codigo_de_bloque_de_codigo  
+    codigo_de_bloque_de_codigo  
+```  
+  
+## CADENAS DE CARACTERES  
+  
+Exiten métodos que nos servirán para manipular las cadenas de caracteres cuando sea necesario.  
+
+**cadena.upper()**: Devuelve la cadena con las letras en mayúsculas.  
+
+**cadena.capitalize()**: Devuelve la cadena con la primera letra en mayúscula y las demás en minúsculas.  
+
+**cadena.strip()**: Devuelve la cadena pero quitando los espacios que haya al principio o al final.  
+
+**cadena.lower()**: Devuelve la cadena pero con las letras en minúsculas.  
+
+**cadena.replace(esto, porEsto)**: Devuelve la cadena pero reemplaza lo que hay en _esto_ por lo que hay en _porEsto_.  
+
+**len(cadena)**: Devuelve la cantidad de caracteres que tiene la cadena.  
+  
+  
