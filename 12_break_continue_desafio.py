@@ -1,4 +1,5 @@
 from calendar import c
+from threading import currentThread
 
 
 def run():
@@ -10,15 +11,18 @@ def run():
 
     while(frase[contador]):
 
-        if frase[contador-1] == termina:
+        if frase[contador] == termina:
+            print("Se termina la ejecución")
             break
 
         print(frase[contador])
-        if frase[contador] == aparece:
+        contador += 1
+        
+        if frase[contador-1] == aparece:
             continue
         cuantas_aparece+=1
+        print(aparece + " aparece " + str(cuantas_aparece) + " veces... hasta ahora")
         
-        contador += 1
             
 
 if __name__ == '__main__':
