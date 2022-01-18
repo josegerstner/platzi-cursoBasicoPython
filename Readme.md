@@ -17,7 +17,7 @@ Cosas que se pueden hacer con Python:
 > \- : resta  
 > \* : multiplicación  
 > / : división  
-> ** : elevado a  
+> ** : elevado a (potencia)  
 > // : división entera  
 > % : módulo  
   
@@ -160,4 +160,12 @@ Exiten métodos que nos servirán para manipular las cadenas de caracteres cuand
 ## BUENA PRÁCTICA: dejar dos espacios entre funciones  
   
 ## BUCLES  
+  
+**while condición:**  
+>Ej
+```  
+while x < 10:  
+    print('X vale: ' + str(x))  
+    x++  
+```  
   
