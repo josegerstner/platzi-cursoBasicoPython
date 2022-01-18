@@ -145,4 +145,13 @@ Exiten métodos que nos servirán para manipular las cadenas de caracteres cuand
 
 **len(cadena)**: Devuelve la cantidad de caracteres que tiene la cadena.  
   
+## SLICES (Rebanadas)  
+  
+**cadena[N:X]**: Devuelve la cadena desde el índice N (un número) hasta el índice X (que es otro número).  
+  
+**cadena[X:]**: Devuelve la cadena desde el índice X hasta el final de la cadena.  
+  
+**cadena[:X]**: Devuelve la cadena desde el inicio hasta el índice X.  
+  
+**cadena[X:N:S]**: Devuelve la cadena desde el índice X hasta el índice N pero en saltos de S.  
   
