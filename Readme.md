@@ -147,11 +147,17 @@ Exiten métodos que nos servirán para manipular las cadenas de caracteres cuand
   
 ## SLICES (Rebanadas)  
   
-**cadena[N:X]**: Devuelve la cadena desde el índice N (un número) hasta el índice X (que es otro número).  
-  
-**cadena[X:]**: Devuelve la cadena desde el índice X hasta el final de la cadena.  
+**cadena[N:X]**: Devuelve la cadena desde el índice N hasta el caracter anterior al índice X.  
   
 **cadena[:X]**: Devuelve la cadena desde el inicio hasta el índice X.  
   
-**cadena[X:N:S]**: Devuelve la cadena desde el índice X hasta el índice N pero en saltos de S.  
+**cadena[X:]**: Devuelve la cadena desde el índice X hasta el final de la cadena.  
+  
+**cadena[X:N:S]**: Devuelve la cadena desde el índice X hasta el índice N pero en saltos de S en S.  
+  
+>extra: **cadena[::-1]**: Devuelve la cadena pero invertida.  
+  
+## BUENA PRÁCTICA: dejar dos espacios entre funciones  
+  
+## BUCLES  
   
