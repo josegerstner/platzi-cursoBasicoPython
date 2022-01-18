@@ -182,4 +182,9 @@ for y in range(3, 10): # y va de 3 a 9
 ```  
 for letra in nombre:  
         print(letra)  
-```
+```  
+  
+**continue**: Se utiliza en los bucles para dada una condición, si es cumplida, se ejecuta el siguiente bloque de código dentro del bucle.  
+  
+**break**: Se utiliza para terminar un bucle cumplida una condición.  
+  
