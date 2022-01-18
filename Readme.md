@@ -169,3 +169,17 @@ while x < 10:
     x++  
 ```  
   
+**for variable in range(desde, hasta):**  
+```  
+for x in range(100): # x va de 0 a 99  
+    print('X vale: ' + str(x))  
+  
+for y in range(3, 10): # y va de 3 a 9  
+    print('Y vale: ' + str(y))  
+```  
+  
+**for unidad in grupo:**
+```  
+for letra in nombre:  
+        print(letra)  
+```
