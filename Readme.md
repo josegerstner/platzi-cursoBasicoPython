@@ -197,6 +197,7 @@ import módulo
   
 **random**: se utiliza para generar datos aleatorios, por ejemplo números.  
 - random.randint(desde, hasta): genera un número entero aleatorio desde el parámetro _desde_ hasta el parámetro _hasta_.  
+- random.choise(lista): elige un elemento random de la _lista_.  
   
 
 ## LISTAS  
