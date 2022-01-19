@@ -202,6 +202,9 @@ import módulo
 ## LISTAS  
   
 >Son objetos ***dinámicos*** que contienen elementos que pueden ser de un tipo de dato, distintos tipos de datos o incluso otros objetos.  
+```
+lista = [elem1, elem2, ...]
+```  
   
 **lista[X]**: accede a la posición X de una lista.  
   
@@ -216,7 +219,22 @@ import módulo
 ## TUPLAS  
   
 >Son objetos ***estáticos*** que contienen elementos que pueden ser de un tipo de dato, distintos tipos de dato o incluso otros objetos. Al ser objetos estáticos, no podemos modificarlas una vez creadas. La ventaja que tenemos al usar _tuplas_ por sobre las _listas_ es que es mucho más eficiente el funcionamiento de Python, por ejemplo al iterarlas.  
+```py
+tupla = (elem1, elem2, ...)
+```
   
 **tupla(X)**: accedo a la posición X de una tupla.  
   
 ## DICCIONARIOS  
+  
+> Un diccionario es una estructura de datos de llaves y valores. En lugar de acceder a sus valores por índices, accedemos a sus valores a través de sus llaves.  
+  
+```py  
+diccionario = {
+    "llave": valor,
+    ...
+}
+```  
+  
+**diccionario[llave]**: accede al contenido de la llave del diccionario.  
+  
