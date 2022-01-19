@@ -188,3 +188,12 @@ for letra in nombre:
   
 **break**: Se utiliza para terminar un bucle cumplida una condición.  
   
+## MÓDULOS  
+  
+>Los módulos son paquetes de código Python que ya vienen con el lenguaje (o no) que podemos importar para utilizar funcionalidades específicas de cada módulo. Se importan arriba del programa con la palabra **import** más el nombre del módulo.  
+```  
+import módulo  
+```  
+  
+**random**: se utiliza para generar datos aleatorios, por ejemplo números.  
+- random.randint(desde, hasta): genera un número entero aleatorio desde el parámetro _desde_ hasta el parámetro _hasta_.  
