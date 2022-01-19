@@ -197,3 +197,26 @@ import módulo
   
 **random**: se utiliza para generar datos aleatorios, por ejemplo números.  
 - random.randint(desde, hasta): genera un número entero aleatorio desde el parámetro _desde_ hasta el parámetro _hasta_.  
+  
+
+## LISTAS  
+  
+>Son objetos ***dinámicos*** que contienen elementos que pueden ser de un tipo de dato, distintos tipos de datos o incluso otros objetos.  
+  
+**lista[X]**: accede a la posición X de una lista.  
+  
+**lista.append(algo)**: ingresa _algo_ en la última posición de la lista.  
+  
+**lista.pop(X)**: elimina el elemento X de una lista.  
+  
+**for elemento in lista**: recorre todos los elementos de la lista.  
+  
+>NOTA: Se pueden usar los **slices** en las listas.  
+  
+## TUPLAS  
+  
+>Son objetos ***estáticos*** que contienen elementos que pueden ser de un tipo de dato, distintos tipos de dato o incluso otros objetos. Al ser objetos estáticos, no podemos modificarlas una vez creadas. La ventaja que tenemos al usar _tuplas_ por sobre las _listas_ es que es mucho más eficiente el funcionamiento de Python, por ejemplo al iterarlas.  
+  
+**tupla(X)**: accedo a la posición X de una tupla.  
+  
+## DICCIONARIOS  
