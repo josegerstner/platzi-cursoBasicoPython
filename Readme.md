@@ -184,7 +184,7 @@ for letra in nombre:
         print(letra)  
 ```  
   
-**continue**: Se utiliza en los bucles para dada una condición, si es cumplida, se ejecuta el siguiente bloque de código dentro del bucle.  
+**continue**: Se utiliza en los bucles para dada una condición, si no es cumplida, se ejecuta el siguiente bloque de código dentro del bucle. Sino vuelve al principio del bucle.  
   
 **break**: Se utiliza para terminar un bucle cumplida una condición.  
   

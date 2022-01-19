@@ -9,7 +9,7 @@ def run():
     aparece = input("Ingrese la letra que quiera contar: ")
     termina = input("Ingrese la letra para terminar: ")
 
-    while(frase[contador]):
+    while(contador < len(frase)):
 
         if frase[contador] == termina:
             print("Se termina la ejecución")
@@ -17,13 +17,13 @@ def run():
 
         print(frase[contador])
         contador += 1
-        
-        if frase[contador-1] == aparece:
+
+        if frase[contador] != aparece:
             continue
+
         cuantas_aparece+=1
-        print(aparece + " aparece " + str(cuantas_aparece) + " veces... hasta ahora")
-        
-            
+        print("La letra " + aparece + " aparece " + str(cuantas_aparece) + " veces... hasta ahora")
+
 
 if __name__ == '__main__':
     run()
